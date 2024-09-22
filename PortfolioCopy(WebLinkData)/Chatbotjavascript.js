@@ -3,7 +3,7 @@ const sendBtn = document.querySelector(".bar-wrapper button");
 const messageBox = document.querySelector(".message-box");
 let selectedFile = null;  // Store the selected file
 const fileInput = document.getElementById('file-upload');
-const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=AIzaSyB5O0AZNd-ak-QOPHnxZWfGMlroGsHbbNI";
+const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=Your API Key";
 
 // Voice recognition  
 const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition)();
