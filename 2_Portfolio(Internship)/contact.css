@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: -webkit-image-set("Contact.gif");
+    background-size: cover;
+}
+
+.home {
+    text-align: center;
+}
+
+.home a {
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+.home:hover {
+    font-size: xx-large;
+    font-weight: bolder;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-fourth ul li {
+    list-style: none;
+    margin: 0 23px;
+    background-color: rgba(128, 128, 128, 0.514);
+    text-align: center;
+    margin-top: 5%;
+    border: solid;
+    border-radius: 10%;
+    border-color: rgba(183, 0, 255, 0.747);
+
+}
+
+.footer-fourth ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.facebook {
+    background-color: #d4ceceb6;
+}
+
+.linkedin {
+    background-color: #d4ceceb6;
+}
+
+.telegram {
+    background-color: #d4ceceb6;
+}
+
+.email {
+    background-color: #d4ceceb6;
+}
+
+.instagram {
+    background-color: #d4ceceb6;
+}
+
+.email:hover {
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(40 159 15);
+}
+
+.facebook:hover {
+    font-size: xx-large;
+    font-style: italic;
+    color: rgb(0, 64, 255);
+}
+
+.instagram:hover {
+    font-size: xx-large;
+    font-style: italic;
+    color: #fe6200;
+}
+
+.linkedin:hover {
+    font-size: xx-large;
+    font-style: italic;
+    color: rgba(4, 93, 237, 0.5);
+}
+
+.telegram:hover {
+    font-size: xx-large;
+    font-style: italic;
+    color: #2481cc;
+}
+
+@media screen and (max-width: 920px) {
+
+    body {
+        background-image: -webkit-image-set("Contact.gif");
+        background-size: contain;
+    }
+
+    .footer-fourth ul li {
+        margin-top: 25%;
+    }
+
+    .home a {
+        background-color: rgb(255 255 255 / 59%);
+        font-size: larger;
+    }
+
+    .facebook {
+        background-color: #d4ceceb6;
+    }
+
+    .linkedin {
+        background-color: #d4ceceb6;
+    }
+
+    .telegram {
+        background-color: #d4ceceb6;
+    }
+
+    .email {
+        background-color: #d4ceceb6;
+    }
+
+    .instagram {
+        background-color: #d4ceceb6;
+    }
+
+}
